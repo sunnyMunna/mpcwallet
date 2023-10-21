@@ -24,14 +24,12 @@ Before you begin, ensure you have met the following requirements:
 
 To get started with this MPC wallet service, follow these steps:
 
-1. Clone this repository to your local machine:
-
-   ```shell
+1. Clone this repository to your local machine:   
    git clone https://github.com/your-username/mpc-wallet-service.git
    cd mpc-wallet-service
 2. Install the necessary Node.js dependencies: npm install
 
-API Endpoints
+## API Endpoints
 This MPC wallet service exposes the following API endpoints:
 
 POST /createWallet: Generates a new Ethereum wallet and returns its address, secret key, and mnemonic phrase.
@@ -40,21 +38,20 @@ POST /generateShares: Generates shares from a secret key using MPC principles an
 
 POST /reconstructSecret: Reconstructs the secret key from a subset of shares using MPC techniques.
 
-3. Running the Code Locally
+## Running the Code Locally
 To run the code locally, use the following command:npm start
-he MPC wallet service will be accessible at http://localhost:3000.
+The MPC wallet service will be accessible at http://localhost:3000.
 
-Dockerization
+## Dockerization
 We provide Docker support for easy deployment. You can find pre-built Docker images in our Docker Repository.
+https://hub.docker.com/r/sunnyac/mpc-wallet-service
 
-Deployment and Scaling
+## Deployment and Scaling
 Deploy the MPC wallet service to your preferred cloud platform to make it accessible to users. Scaling can be achieved to accommodate increased demand.
 
-Further Exploration
-Explore additional features, integrations, and use cases for MPC wallet services to unlock their full potential.
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this MPC wallet service.
 
-License
+## License
 This project is licensed under the MIT License.
